@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="https://acarraa41rrasco.github.io/Cse445_Assignment4/NationalParks.xsd">
+<!--Here we have first park from diagram-->
+  <NationalPark Rating="4.9">
+    <Name>Grand Canyon National Park</Name>
+    <Phone>928-638-7888</Phone>
+    <Address NearestAirport="Flagstaff">
+      <Number>20</Number>
+      <Street>South Entrance Road</Street>
+      <City>Grand Canyon</City>
+      <State>AZ</State>
+      <Zip>86023</Zip>
+    </Address>
+  </NationalPark>
+<!--Next is Park  2-->
+  <NationalPark Rating="4.8">
+    <Name>Glacier National Park</Name>
+    <Phone>406-888-7800</Phone>
+    <Address NearestAirport="Kalispell">
+      <Number>64</Number>
+      <Street>Grinnell Drive</Street>
+      <City>West Glacier</City>
+      <State>MT</State>
+      <Zip>59936</Zip>
+    </Address>
+  </NationalPark>
+<!--Park 3-->
+  <NationalPark Rating="4.7">
+    <Name>Redwood National and State Parks</Name>
+    <Phone>707-464-6101</Phone>
+    <Address NearestAirport="Crescent City">
+      <Number>1111</Number>
+      <Street>Second Street</Street>
+      <City>Crescent City</City>
+      <State>CA</State>
+      <Zip>95531</Zip>
+    </Address>
+  </NationalPark>
+<!--Park 4-->
+  <NationalPark Rating="4.6">
+    <Name>White Sands National Park</Name>
+    <Phone>575-479-6124</Phone>
+    <Address NearestAirport="El Paso">
+      <Number>19955</Number>
+      <Street>Highway 70 West</Street>
+      <City>Alamogordo</City>
+      <State>NM</State>
+      <Zip>88310</Zip>
+    </Address>
+  </NationalPark>
+<!--Park 5-->
+  <NationalPark Rating="4.7">
+    <Name>Saguaro National Park</Name>
+    <Phone>520-733-5153</Phone>
+    <Address NearestAirport="Tucson">
+      <Number>3693</Number>
+      <Street>South Old Spanish Trail</Street>
+      <City>Tucson</City>
+      <State>AZ</State>
+      <Zip>85730</Zip>
+    </Address>
+  </NationalPark>
+<!--Park 6-->
+  <NationalPark>
+    <Name>Petrified Forest</Name>
+    <Phone>928-524-6228</Phone>
+    <Address NearestAirport="Flagstaff">
+      <Number>1</Number>
+      <Street>Park Road</Street>
+      <City>Petrified Forest</City>
+      <State>AZ</State>
+      <Zip>86028</Zip>
+    </Address>
+  </NationalPark>
+<!--Park 7-->
+  <NationalPark Rating="4.7">
+    <Name>Badlands National Park</Name>
+    <Phone>605-433-5361</Phone>
+    <Address NearestAirport="Rapid City">
+      <Number>25216</Number>
+      <Street>Ben Reifel Road</Street>
+      <City>Interior</City>
+      <State>SD</State>
+      <Zip>57750</Zip>
+    </Address>
+  </NationalPark>
+<!--Park 8-->
+  <NationalPark Rating="4.8">
+    <Name>Joshua Tree National Park</Name>
+    <Phone>760-367-5500</Phone>
+    <Phone>760-367-5501</Phone>
+    <Address NearestAirport="Palm Springs">
+      <Number>74485</Number>
+      <Street>National Park Drive</Street>
+      <City>Twentynine Palms</City>
+      <State>CA</State>
+      <Zip>92277</Zip>
+    </Address>
+  </NationalPark>
+<!--Park 9-->
+  <NationalPark Rating="4.6">
+    <Name>Lassen Volcanic National Park</Name>
+    <Phone>530-595-4480</Phone>
+    <Address NearestAirport="Redding">
+      <Number>38050</Number>
+      <Street>Highway 36 East</Street>
+      <City>Mineral</City>
+      <State>CA</State>
+      <Zip>96063</Zip>
+    </Address>
+  </NationalPark>
+<!--Park 10-->
+  <NationalPark>
+    <Name>Everglades National Park</Name>
+    <Phone>305-242-7700</Phone>
+    <Address NearestAirport="Miami">
+      <Number>40001</Number>
+      <Street>State Road 9336</Street>
+      <City>Homestead</City>
+      <State>FL</State>
+      <Zip>33034</Zip>
+    </Address>
+  </NationalPark>
+<!--Park 11-->
+  <NationalPark Rating="4.9">
+    <Name>Crater Lake National Park</Name>
+    <Phone>541-594-3000</Phone>
+    <Address NearestAirport="Medford">
+      <Number>1</Number>
+      <Street>Rim Drive</Street>
+      <City>Crater Lake</City>
+      <State>OR</State>
+      <Zip>97604</Zip>
+    </Address>
+  </NationalPark>
+
+</NationalParks>

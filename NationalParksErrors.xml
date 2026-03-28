@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://acarraa41rrasco.github.io/Cse445_Assignment4/NationalParks.xsd">
+
+  <!--So for Error 1 we make sure to accound for-->
+  <!--Wrong root element name and make sure it should be NationalParks -->
+
+  <NationalPark Rating="4.8">
+    <Name>Glacier National Park</Name>
+    <Phone>406-888-7800</Phone>
+    <!-- Then we have Error 2 which is if its missing the required NearestAirport attribute -->
+    <Address>
+      <Number>64</Number>
+      <Street>Grinnell Drive</Street>
+      <City>West Glacier</City>
+      <State>MT</State>
+      <Zip>59936</Zip>
+    </Address>
+  </NationalPark>
+
+  <NationalPark Rating="4.7">
+    <Name>Redwood National and State Parks</Name>
+    <!--For Error 3 it deals with the Missing Phone element -->
+    <Address NearestAirport="Crescent City">
+      <Number>1111</Number>
+      <Street>Second Street</Street>
+      <City>Crescent City</City>
+      <State>CA</State>
+      <Zip>95531</Zip>
+    </Address>
+  </NationalPark>
+
+  <NationalPark Rating="4.6">
+    <Name>White Sands National Park</Name>
+    <Phone>575-479-6124</Phone>
+    <!--Now for Error 4 which deals with an Address element not being closed -->
+    <Address NearestAirport="El Paso">
+      <Number>19955</Number>
+      <Street>Highway 70 West</Street>
+      <City>Alamogordo</City>
+      <State>NM</State>
+      <Zip>88310</Zip>
+
+  <NationalPark Rating="4.7">
+    <!--Then finally we want to deal with Error 5 which is if there is Two Name elements -->
+    <Name>Badlands National Park</Name>
+    <Name>Badlands</Name>
+    <Phone>605-433-5361</Phone>
+    <Address NearestAirport="Rapid City">
+      <Number>25216</Number>
+      <Street>Ben Reifel Road</Street>
+      <City>Interior</City>
+      <State>SD</State>
+      <Zip>57750</Zip>
+    </Address>
+  </NationalPark>
+
+</NationalPark>
