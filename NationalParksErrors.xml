@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                  xsi:noNamespaceSchemaLocation="https://acarraa41rrasco.github.io/Cse445_Assignment4/NationalParks.xsd">
-
+<NationalPark xmlns="http://www.example.com/nationalparks"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://www.example.com/nationalparks https://acarraa41rrasco.github.io/Cse445_Assignment4/NationalParks.xsd">
   <!--So for Error 1 we make sure to accound for-->
   <!--Wrong root element name and make sure it should be NationalParks -->
 
